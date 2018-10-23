@@ -1,20 +1,19 @@
-## K-NearestNeighbor (K最近邻算法)
+## K-NearestNeighbor (K nearest neighbor algorithm)
 
-参考博文：[机器学习算法-K最近邻从原理到实现](http://www.csuldw.com/2015/05/21/2015-05-21-KNN/)
 
-- 实现：python+numpy   [KNN.py](https://github.com/csuldw/MachineLearning/blob/master/KNN/KNN.py)
+- Implementation: python+numpy [KNN.py](https://github.com/csuldw/MachineLearning/blob/master/KNN/KNN.py)
 
-## 实例
+## Instance
 
-手写识别字 [HandWriting.py](https://github.com/csuldw/MachineLearning/blob/master/KNN/HandWriting.py)
+Handwritten recognition word [HandWriting.py] (https://github.com/csuldw/MachineLearning/blob/master/KNN/HandWriting.py)
 
 ## Data:
 
-- 训练集数据:data/trainingDigits; 
-- 测试集数据:data/testDigits.
+- Training set data: data/trainingDigits;
+- Test set data: data/testDigits.
 
 # Result
 
-- 当k取3时：error_rate = 0.0549682875264
-- 当k为5时：error_rate = 0.0919661733615
-- 当k为10时：error_rate = 0.0993657505285
+- When k is taken as 3: error_rate = 0.0549682875264
+- When k is 5: error_rate = 0.0919661733615
+- When k is 10: error_rate = 0.0993657505285
